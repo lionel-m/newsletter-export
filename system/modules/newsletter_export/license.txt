@@ -1,0 +1,5 @@
+Contao extension maintained by Lionel Maccaud (http://www.contao.org/en/extension-list/authors/lionel.html)
+
+Originally created by John Brand (thyon).
+
+License : LGPL
