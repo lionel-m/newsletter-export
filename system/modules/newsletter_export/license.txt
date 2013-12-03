@@ -3,3 +3,7 @@ Contao extension maintained by Lionel Maccaud (http://www.contao.org/en/extensio
 Originally created by John Brand (thyon).
 
 License : LGPL
+
+-----
+
+Some Icons are Copyright © Yusuke Kamiyamane. All rights reserved. (http://p.yusukekamiyamane.com/)
