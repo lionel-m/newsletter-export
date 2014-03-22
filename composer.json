@@ -1,0 +1,35 @@
+{
+    "name":"lionel/newsletter-export",
+    "description":"CSV Export button for Newsletters recipients.",
+    "keywords":["newsletter", "csv", "export", "recipient"],
+    "type":"contao-module",
+    "license":"LGPL",
+    "authors":[
+        {
+        "name":"Lionel Maccaud",
+        "email":"work@lionelmaccaud.ch",
+        "homepage":"http://lionelmaccaud.ch",
+        "role":"Developer"
+        }
+    ],
+    "support":{
+        "email":"work@lionelmaccaud.ch",
+        "issues":"https://github.com/lionel-m/newsletter-export/issues?page=1&state=open",
+        "source":"https://github.com/lionel-m/newsletter-export"
+    },
+    "require":{
+        "php":">=5.3",
+        "contao/core": ">=3.0,<3.3",
+        "contao-community-alliance/composer-installer": "*"
+    },
+    "replace": {
+            "contao-legacy/newsletter_export": "*"
+    },        
+    "extra": {
+        "contao": {
+            "sources": {
+                "system/modules/newsletter_export": "system/modules/newsletter_export"
+            }
+        }
+    }
+}
