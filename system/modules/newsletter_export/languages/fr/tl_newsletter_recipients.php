@@ -15,4 +15,3 @@
  * Buttons
  */
 $GLOBALS['TL_LANG']['tl_newsletter_recipients']['export'] = array('Export CSV', 'Exporter les destinataires vers un fichier CSV');
-?>

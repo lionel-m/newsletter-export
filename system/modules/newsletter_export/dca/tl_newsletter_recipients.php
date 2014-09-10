@@ -14,9 +14,9 @@
 /**
  * Table tl_newsletter_recipients
  */
-array_insert($GLOBALS['TL_DCA']['tl_newsletter_recipients']['list']['global_operations'],1, array
-    (
-        'export' => array
+array_insert($GLOBALS['TL_DCA']['tl_newsletter_recipients']['list']['global_operations'], 1, array
+(
+    'export' => array
         (
             'label'               => &$GLOBALS['TL_LANG']['tl_newsletter_recipients']['export'],
             'href'                => 'key=export',
@@ -25,4 +25,3 @@ array_insert($GLOBALS['TL_DCA']['tl_newsletter_recipients']['list']['global_oper
         )
     )
 );
-?>

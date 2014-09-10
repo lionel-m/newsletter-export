@@ -18,4 +18,3 @@
  */
 $GLOBALS['TL_LANG']['tl_newsletter_recipients']['export']['0'] = "CSV экспорт";
 $GLOBALS['TL_LANG']['tl_newsletter_recipients']['export']['1'] = "Экспорт получателей в CSV файл";
-?>

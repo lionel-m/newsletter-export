@@ -16,8 +16,6 @@
  */
 $GLOBALS['BE_MOD']['content']['newsletter']['export'] = array('NewsletterExport', 'exportRecipients');
 
-if (TL_MODE == 'BE' && strlen($GLOBALS['BE_MOD']['content']['newsletter']['stylesheet']))	
-{
-	$GLOBALS['TL_CSS'][] = 'system/modules/newsletter_export/assets/style.css';
+if (TL_MODE == 'BE' && strlen($GLOBALS['BE_MOD']['content']['newsletter']['stylesheet'])) {
+    $GLOBALS['TL_CSS'][] = 'system/modules/newsletter_export/assets/style.css';
 }
-?>

@@ -16,6 +16,6 @@
  */
 ClassLoader::addClasses(array
 (
-	// Classes
-	'Contao\NewsletterExport' => 'system/modules/newsletter_export/classes/NewsletterExport.php',
+    // Classes
+    'Contao\NewsletterExport' => 'system/modules/newsletter_export/classes/NewsletterExport.php',
 ));
