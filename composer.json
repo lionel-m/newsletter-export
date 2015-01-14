@@ -19,11 +19,11 @@
     },
     "require":{
         "php":">=5.3",
-        "contao/core": ">=3.0,<3.3",
+        "contao/core": ">=3.0,<3.5",
         "contao-community-alliance/composer-installer": "*"
     },
     "replace": {
-            "contao-legacy/newsletter_export": "*"
+            "contao-legacy/newsletter_export": "self.version"
     },        
     "extra": {
         "contao": {
