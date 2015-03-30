@@ -38,13 +38,12 @@ class NewsletterExport extends \Backend
         }
 
         // get records
-        $arrExport = array();
-        $objRow = $this->Database->prepare("SELECT email,active FROM tl_newsletter_recipients WHERE pid=? ORDER BY email")
-            ->execute($dc->id);
-
-        while ($objRow->next()) {
-            $arrExport[] = $objRow->row();
-        }
+        $query = "SELECT m.firstname, m.lastname, m.gender, r.email, r.active
+                    FROM tl_newsletter_recipients AS r
+                    LEFT JOIN tl_member AS m ON m.email = r.email
+                   WHERE r.pid = ?
+                ORDER BY r.email ASC";
+        $objRow = $this->Database->prepare($query)->execute($dc->id);
 
         // start output
         $exportFile =  'newsletter_recipients_export_' . date("Ymd-Hi");
@@ -57,10 +56,10 @@ class NewsletterExport extends \Backend
         header('Expires: 0');
 
         $output = '';
-        $output .= '"E-mail","Active"'. "\n" ;
+        $output .= '"Firstname", "Lastname", "Gender", "E-mail", "Active"'. "\n" ;
 
-        foreach ($arrExport as $export) {
-            $output .= '"' . join('","', $export).'"' . "\n";
+        while ($objRow->next()) {
+            $output .= '"' . join('","', $objRow->row()).'"' . "\n";
         }
 
         echo $output;
