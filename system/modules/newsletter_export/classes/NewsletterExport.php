@@ -55,7 +55,7 @@ class NewsletterExport extends \Backend
         header('Pragma: public');
         header('Expires: 0');
 
-        $output = '"Firstname", "Lastname", "Gender", "E-mail", "Active"'. "\n" ;
+        $output = '"Firstname","Lastname","Gender","E-mail","Active"'. "\n";
 
         while ($objRow->next()) {
             $output .= '"' . join('","', $objRow->row()).'"' . "\n";
