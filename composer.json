@@ -18,18 +18,16 @@
         "source":"https://github.com/lionel-m/newsletter-export"
     },
     "require":{
-        "php":">=5.3",
-        "contao/core": ">=3.0,<3.5",
-        "contao-community-alliance/composer-installer": "*"
+        "php":">=5.4.0",
+        "symfony/framework-bundle": "~2.7",
+        "contao/core-bundle": "~4.0"
     },
     "replace": {
             "contao-legacy/newsletter_export": "self.version"
-    },        
-    "extra": {
-        "contao": {
-            "sources": {
-                "system/modules/newsletter_export": "system/modules/newsletter_export"
-            }
+    },
+    "autoload": {
+        "psr-4": {
+            "LionelM\\NewsletterExportBundle\\": "src/"
         }
     }
 }

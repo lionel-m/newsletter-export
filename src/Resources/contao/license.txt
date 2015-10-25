@@ -1,0 +1,9 @@
+Contao extension maintained by Lionel Maccaud (https://github.com/lionel-m)
+
+Originally created by John Brand (http://www.brandbrilliance.co.za).
+
+License : LGPL
+
+-----
+
+Some Icons are Copyright © Yusuke Kamiyamane. All rights reserved. (http://p.yusukekamiyamane.com/)

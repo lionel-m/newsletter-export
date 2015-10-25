@@ -4,9 +4,9 @@
  * Newsletter export
  * CSV export button for newsletter recipients.
  *
- * @author    John Brand (thyon), http://www.thyon.com
+ * @author    John Brand, http://www.brandbrilliance.co.za
  * @author    Lionel Maccaud
- * @copyright John Brand (thyon), http://www.thyon.com
+ * @copyright Lionel Maccaud
  * @package   newsletterExport
  * @license   LGPL
  */
@@ -14,15 +14,14 @@
 /**
  * Run in a custom namespace, so the class can be replaced
  */
-namespace Contao;
+namespace LionelM\NewsletterExportBundle;
 
 /**
  * Class NewsletterExport
  *
  * Provide methods to handle subscriber export.
- * @copyright  Thyon Design
- * @author     John Brand <john.brand@thyon.com>
- * @package    Controller
+ * @author  John Brand
+ * @package Controller
  */
 class NewsletterExport extends \Backend
 {
@@ -46,7 +45,7 @@ class NewsletterExport extends \Backend
         $objRow = $this->Database->prepare($query)->execute($dc->id);
 
         // start output
-        $exportFile =  'newsletter_recipients_export_' . date("Ymd-Hi");
+        $exportFile = 'newsletter_recipients_export_' . date("Ymd-Hi");
 
         header('Content-Type: application/csv');
         header('Content-Transfer-Encoding: binary');

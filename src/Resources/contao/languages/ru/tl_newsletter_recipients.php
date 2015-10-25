@@ -4,9 +4,9 @@
  * Newsletter export
  * CSV export button for newsletter recipients.
  *
- * @author    John Brand (thyon), http://www.thyon.com
+ * @author    John Brand, http://www.brandbrilliance.co.za
  * @author    Lionel Maccaud
- * @copyright John Brand (thyon), http://www.thyon.com
+ * @copyright Lionel Maccaud
  * @package   newsletterExport
  * @license   LGPL
  */

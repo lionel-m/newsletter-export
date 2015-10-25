@@ -2,6 +2,6 @@
 
 Contao repository : https://contao.org/en/extension-list/view/newsletter_export.html
 
-Originally created by John Brand (thyon).
+Originally created by John Brand (http://www.brandbrilliance.co.za).
 
 License : LGPL
