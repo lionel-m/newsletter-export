@@ -8,7 +8,7 @@
  * @author    Lionel Maccaud
  * @copyright Lionel Maccaud
  * @package   newsletterExport
- * @license   LGPL
+ * @license   LGPL-3.0
  */
 
 /**

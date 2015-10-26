@@ -2,7 +2,7 @@
 
 Originally created by John Brand (http://www.brandbrilliance.co.za).
 
-License : LGPL
+License : LGPL-3.0
 
 ### Installation
 
