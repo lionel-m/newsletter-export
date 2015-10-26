@@ -30,7 +30,7 @@ class NewsletterExport extends \Backend
      * @param object
      * @return string
      */
-    public function exportRecipients(DataContainer $dc)
+    public function exportRecipients(\DataContainer $dc)
     {
         if ($this->Input->get('key') != 'export') {
             return '';

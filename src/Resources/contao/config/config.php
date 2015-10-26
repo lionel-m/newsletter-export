@@ -21,5 +21,5 @@ $GLOBALS['BE_MOD']['content']['newsletter']['export'] = array('NewsletterExportB
 $isBackEnd  = \System::getContainer()->isScopeActive(ContaoCoreBundle::SCOPE_BACKEND);
 
 if ($isBackEnd && strlen($GLOBALS['BE_MOD']['content']['newsletter']['stylesheet'])) {
-    $GLOBALS['TL_CSS'][] = 'web/bundles/lionelmnewsletterexport/style.css';
+    $GLOBALS['TL_CSS'][] = 'bundles/lionelmnewsletterexport/style.css';
 }
