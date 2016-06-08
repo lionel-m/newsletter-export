@@ -8,7 +8,7 @@
  * @author    Lionel Maccaud
  * @copyright John Brand (thyon), http://www.thyon.com
  * @package   newsletterExport
- * @license   LGPL
+ * @license   LGPL-3.0
  */
 
 // Translator: Dmitry Kuznetsov (kuzmich), http://on.freedom-vrn.ru

@@ -4,4 +4,4 @@ Contao repository : https://contao.org/en/extension-list/view/newsletter_export.
 
 Originally created by John Brand (thyon).
 
-License : LGPL
+License : LGPL-3.0
