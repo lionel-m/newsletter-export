@@ -1,9 +1,9 @@
-Contao extension maintained by Lionel Maccaud (https://github.com/lionel-m)
+## Newsletter export extension for the Contao CMS
+
+Contao repository : https://contao.org/en/extension-list/view/newsletter_export.html
 
 Originally created by John Brand (http://www.brandbrilliance.co.za).
 
+Maintained by Lionel Maccaud (https://github.com/lionel-m)
+
 License : LGPL-3.0
-
------
-
-Some Icons are Copyright © Yusuke Kamiyamane. All rights reserved. (http://p.yusukekamiyamane.com/)

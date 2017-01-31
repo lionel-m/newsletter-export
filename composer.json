@@ -1,6 +1,6 @@
 {
     "name":"lionel/newsletter-export",
-    "description":"CSV Export button for Newsletters recipients.",
+    "description":"CSV export button for newsletters recipients.",
     "keywords":["newsletter", "csv", "export", "recipient"],
     "type":"contao-module",
     "license":"LGPL-3.0",
@@ -18,9 +18,9 @@
         "source":"https://github.com/lionel-m/newsletter-export"
     },
     "require":{
-        "php":">=5.4.0",
+        "php":">=5.5.0",
         "symfony/framework-bundle": "~2.7",
-        "contao/core-bundle": "~4.0"
+        "contao/core-bundle": "~4.3"
     },
     "replace": {
             "contao-legacy/newsletter_export": "self.version"
