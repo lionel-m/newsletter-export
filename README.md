@@ -6,9 +6,9 @@ Originally created by John Brand (http://www.brandbrilliance.co.za).
 
 License : LGPL-3.0
 
-### Contao 4.x beta
+### Contao 4
 
-Add `"lionel/newsletter-export": "~4.0@beta"` in the `composer.json` file.
+Add `"lionel/newsletter-export": "~4.0"` in the `composer.json` file.
 
 Add `new LionelM\NewsletterExportBundle\LionelMNewsletterExportBundle(),` in the `app/AppKernel.php` file.
 
