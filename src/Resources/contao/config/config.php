@@ -18,8 +18,6 @@ use Contao\CoreBundle\ContaoCoreBundle;
  */
 $GLOBALS['BE_MOD']['content']['newsletter']['export'] = array('NewsletterExportBundle\NewsletterExport', 'exportRecipients');
 
-$isBackEnd  = \System::getContainer()->isScopeActive(ContaoCoreBundle::SCOPE_BACKEND);
-
-if ($isBackEnd && strlen($GLOBALS['BE_MOD']['content']['newsletter']['stylesheet'])) {
+if (TL_MODE == 'BE' && strlen($GLOBALS['BE_MOD']['content']['newsletter']['stylesheet'])) {
     $GLOBALS['TL_CSS'][] = 'bundles/lionelmnewsletterexport/style.css';
 }
