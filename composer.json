@@ -19,7 +19,6 @@
     },
     "require":{
         "php":">=5.5.0",
-        "symfony/framework-bundle": "~2.7",
         "contao/core-bundle": "~4.3"
     },
     "replace": {
