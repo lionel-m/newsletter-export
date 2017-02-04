@@ -3,11 +3,7 @@
 [![Latest Stable Version](https://poser.pugx.org/lionel/newsletter-export/v/stable)](https://packagist.org/packages/lionel/newsletter-export)
 [![License](https://poser.pugx.org/lionel/newsletter-export/license)](https://packagist.org/packages/lionel/newsletter-export)
 
-Contao repository : https://contao.org/en/extension-list/view/newsletter_export.html
-
 Originally created by John Brand (http://www.brandbrilliance.co.za).
-
-License : LGPL-3.0
 
 
 ### Installation
