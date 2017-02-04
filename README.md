@@ -1,4 +1,4 @@
-## Newsletter export extension for the [Contao CMS](https://contao.org/en)
+## Newsletter-export bundle for the [Contao CMS](https://contao.org/en)
 
 [![Latest Stable Version](https://poser.pugx.org/lionel/newsletter-export/v/stable)](https://packagist.org/packages/lionel/newsletter-export)
 [![License](https://poser.pugx.org/lionel/newsletter-export/license)](https://packagist.org/packages/lionel/newsletter-export)
