@@ -1,7 +1,7 @@
-## Newsletter export extension for the Contao CMS
+## Newsletter export extension for the [Contao CMS](https://contao.org/en)
 
-Contao repository : https://contao.org/en/extension-list/view/newsletter_export.html
+[![License](https://poser.pugx.org/lionel/newsletter-export/license)](https://packagist.org/packages/lionel/newsletter-export)
 
-Originally created by John Brand (thyon).
+[Contao repository](https://contao.org/en/extension-list/view/newsletter_export.html)
 
-License : LGPL-3.0
+Originally created by John Brand (http://www.brandbrilliance.co.za).
