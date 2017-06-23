@@ -2,7 +2,7 @@
   "name":"lionel/newsletter-export",
   "description":"CSV export button for newsletters recipients.",
   "keywords":["newsletter", "csv", "export", "recipient"],
-  "type":"contao-module",
+  "type":"contao-bundle",
   "license":"LGPL-3.0",
   "authors":[
     {
