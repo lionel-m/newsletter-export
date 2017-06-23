@@ -1,32 +1,41 @@
 {
-    "name":"lionel/newsletter-export",
-    "description":"CSV export button for newsletters recipients.",
-    "keywords":["newsletter", "csv", "export", "recipient"],
-    "type":"contao-module",
-    "license":"LGPL-3.0",
-    "authors":[
-        {
-        "name":"Lionel Maccaud",
-        "email":"work@lionelmaccaud.ch",
-        "homepage":"http://lionelmaccaud.ch",
-        "role":"Developer"
-        }
-    ],
-    "support":{
-        "email":"work@lionelmaccaud.ch",
-        "issues":"https://github.com/lionel-m/newsletter-export/issues?page=1&state=open",
-        "source":"https://github.com/lionel-m/newsletter-export"
-    },
-    "require":{
-        "php":">=5.5.0",
-        "contao/core-bundle": "~4.3"
-    },
-    "replace": {
-            "contao-legacy/newsletter_export": "self.version"
-    },
-    "autoload": {
-        "psr-4": {
-            "LionelM\\NewsletterExportBundle\\": "src/"
-        }
+  "name":"lionel/newsletter-export",
+  "description":"CSV export button for newsletters recipients.",
+  "keywords":["newsletter", "csv", "export", "recipient"],
+  "type":"contao-module",
+  "license":"LGPL-3.0",
+  "authors":[
+    {
+      "name":"Lionel Maccaud",
+      "email":"work@lionelmaccaud.ch",
+      "homepage":"http://lionelmaccaud.ch",
+      "role":"Developer"
     }
+  ],
+  "support":{
+    "email":"work@lionelmaccaud.ch",
+    "issues":"https://github.com/lionel-m/newsletter-export/issues?page=1&state=open",
+    "source":"https://github.com/lionel-m/newsletter-export"
+  },
+  "require":{
+    "php":">=5.5.0",
+    "contao/core-bundle": "~4.3"
+  },
+  "require-dev": {
+    "contao/manager-plugin": "^2.0"
+  },
+  "conflict": {
+    "contao/manager-plugin": "<2.0 || >=3.0"
+  },
+  "replace": {
+    "contao-legacy/newsletter_export": "self.version"
+  },
+  "autoload": {
+    "psr-4": {
+      "LionelM\\NewsletterExportBundle\\": "src/"
+    }
+  },
+  "extra": {
+    "contao-manager-plugin": "LionelM\\NewsletterExportBundle\\ContaoManager\\Plugin"
+  }
 }
