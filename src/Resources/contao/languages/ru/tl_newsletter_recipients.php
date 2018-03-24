@@ -8,7 +8,7 @@
  * @author    Lionel Maccaud
  * @copyright Lionel Maccaud
  * @package   newsletterExport
- * @license   LGPL-3.0
+ * @license   LGPL-3.0-or-later
  */
 
 // Translator: Dmitry Kuznetsov (kuzmich), http://on.freedom-vrn.ru

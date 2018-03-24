@@ -7,7 +7,7 @@
  * @author    Lionel Maccaud
  * @copyright Lionel Maccaud
  * @package   newsletterExport
- * @license   LGPL-3.0
+ * @license   LGPL-3.0-or-later
  */
 
 namespace LionelM\NewsletterExportBundle\ContaoManager;

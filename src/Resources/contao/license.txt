@@ -6,4 +6,4 @@ Originally created by John Brand (http://www.brandbrilliance.co.za).
 
 Maintained by Lionel Maccaud (https://github.com/lionel-m)
 
-License : LGPL-3.0
+License : LGPL-3.0-or-later

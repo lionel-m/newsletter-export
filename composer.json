@@ -3,7 +3,7 @@
   "description":"CSV export button for newsletters recipients.",
   "keywords":["newsletter", "csv", "export", "recipient"],
   "type":"contao-bundle",
-  "license":"LGPL-3.0",
+  "license":"LGPL-3.0-or-later",
   "authors":[
     {
       "name":"Lionel Maccaud",
