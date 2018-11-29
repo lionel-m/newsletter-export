@@ -25,6 +25,7 @@ use Symfony\Component\HttpFoundation\Response;
  * @author  John Brand
  * @author  Lionel Maccaud
  * @author  fritzmg
+ * @author  Ingolf Steinhardt <info@e-spin.de>
  * @package Controller
  */
 class NewsletterExport extends \Backend
@@ -81,8 +82,10 @@ class NewsletterExport extends \Backend
     $response->headers->set('Pragma', 'public');
     $response->headers->set('Expires', '0');
 
-    $response->send();
+    $response->sendHeaders();
 
-    exit($string);
+    echo $string;
+
+    exit();
   }
 }
